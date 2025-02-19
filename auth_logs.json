@@ -450,5 +450,37 @@
       "user_id": 2,
       "remember_me": false
     }
+  },
+  {
+    "event_type": "logout",
+    "username": "sushant",
+    "success": true,
+    "timestamp": "2025-02-20T02:44:17.021940",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/dashboard",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Cookie": "session=.eJwljjkOwzAMwP6iuYNlS3KUzwS2DrRr0kxF_94UGQkCBD-w5R7HE9b3fsYDtpfDCtlnepZUrpTBlGiTMbmZW8hCPEsmR5CxmjfjUXvBxmUSu1dbSFAi2FMvYrFOFGVgasXxjyUKlmyhMnDS1Gah2p0uJVIMrpHziP2-qfD9AVuiMLo.Z7Y4Aw.IUu9ICu7-IqGwd37p6_4_wq8VLw"
+      },
+      "timestamp": "2025-02-20T02:44:17.021940"
+    },
+    "details": {
+      "user_id": 2
+    }
   }
 ]

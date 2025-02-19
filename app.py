@@ -8,11 +8,15 @@ from datetime import datetime
 import os
 import json
 
+
 from config import Config
 from utils.logger import AuthLogger
 
 app = Flask(__name__)
 app.config.from_object(Config)
+
+PORT = int(os.getenv("PORT", 10000))  # Default to 10000 if PORT is not set
+app.run(host="0.0.0.0", port=PORT)
 
 # Initialize database
 db = SQLAlchemy(app)

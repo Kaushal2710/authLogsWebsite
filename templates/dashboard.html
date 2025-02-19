@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% block title %}Dashboard{% endblock %} {% block
+content %}
+<div class="dashboard-container">
+  <h1>Welcome, {{ current_user.username }}!</h1>
+
+  <div class="user-info">
+    <h2>Your Account Information</h2>
+    <p><strong>Username:</strong> {{ current_user.username }}</p>
+    <p><strong>Email:</strong> {{ current_user.email }}</p>
+    <p>
+      <strong>Account Created:</strong> {{
+      current_user.created_at.strftime('%Y-%m-%d %H:%M:%S') }}
+    </p>
+    {% if current_user.last_login %}
+    <p>
+      <strong>Last Login:</strong> {{ current_user.last_login.strftime('%Y-%m-%d
+      %H:%M:%S') }}
+    </p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

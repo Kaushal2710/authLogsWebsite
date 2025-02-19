@@ -1,0 +1,454 @@
+[
+  {
+    "event_type": "login_attempt",
+    "username": "kaushal",
+    "success": false,
+    "timestamp": "2025-02-20T01:27:06.621052",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "34",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/login",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8"
+      },
+      "timestamp": "2025-02-20T01:27:06.621052"
+    }
+  },
+  {
+    "event_type": "login_failed",
+    "username": "kaushal",
+    "success": false,
+    "timestamp": "2025-02-20T01:27:06.640003",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "34",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/login",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8"
+      },
+      "timestamp": "2025-02-20T01:27:06.639005"
+    },
+    "details": {
+      "reason": "Invalid credentials"
+    }
+  },
+  {
+    "event_type": "registration_attempt",
+    "username": "kaushal",
+    "success": false,
+    "timestamp": "2025-02-20T01:27:19.899526",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "97",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/register",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8"
+      },
+      "timestamp": "2025-02-20T01:27:19.899526"
+    },
+    "details": {
+      "email": "kaushalambaliya69199@gmail.com"
+    }
+  },
+  {
+    "event_type": "registration_success",
+    "username": "kaushal",
+    "success": true,
+    "timestamp": "2025-02-20T01:27:20.666474",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "97",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/register",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8"
+      },
+      "timestamp": "2025-02-20T01:27:20.666474"
+    },
+    "details": {
+      "email": "kaushalambaliya69199@gmail.com",
+      "user_id": 1
+    }
+  },
+  {
+    "event_type": "login_attempt",
+    "username": "kaushal",
+    "success": false,
+    "timestamp": "2025-02-20T01:27:33.008602",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "33",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/login",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Cookie": "session=eyJfZnJlc2giOmZhbHNlfQ.Z7Y3oA.5R_BpcQ3CS6MN1MDRtU_uvg0EGQ"
+      },
+      "timestamp": "2025-02-20T01:27:33.008602"
+    }
+  },
+  {
+    "event_type": "login_success",
+    "username": "kaushal",
+    "success": true,
+    "timestamp": "2025-02-20T01:27:33.723688",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "33",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/login",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Cookie": "session=eyJfZnJlc2giOmZhbHNlfQ.Z7Y3oA.5R_BpcQ3CS6MN1MDRtU_uvg0EGQ"
+      },
+      "timestamp": "2025-02-20T01:27:33.722692"
+    },
+    "details": {
+      "user_id": 1,
+      "remember_me": false
+    }
+  },
+  {
+    "event_type": "logout",
+    "username": "kaushal",
+    "success": true,
+    "timestamp": "2025-02-20T01:28:21.993540",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/dashboard",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Cookie": "session=.eJwljjkOwzAMwP7iuYNkS3KUzwS2DrRr0kxF_94UGQkCBD9lyz2OZ1nf-xmPsr28rCX7TE9I5UoZTIk2GZObuYUsxBMyOYKM1bwZj9oBG8Mkdq-2kKBEsKdexGKdKGBgasXxjyUKQrZQGThparNQ7U6XEgEr18h5xH7fYPn-AFufMLk.Z7Y3rQ.Z9jjXFCT0aTQ3lmNdiPfSehQshg"
+      },
+      "timestamp": "2025-02-20T01:28:21.993540"
+    },
+    "details": {
+      "user_id": 1
+    }
+  },
+  {
+    "event_type": "login_attempt",
+    "username": "sushant",
+    "success": false,
+    "timestamp": "2025-02-20T01:28:30.840867",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "33",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/login",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Cookie": "session=eyJfZnJlc2giOmZhbHNlfQ.Z7Y33g.u-YCBFYWxM4Yoov6VppL5bmpskQ"
+      },
+      "timestamp": "2025-02-20T01:28:30.840867"
+    }
+  },
+  {
+    "event_type": "login_failed",
+    "username": "sushant",
+    "success": false,
+    "timestamp": "2025-02-20T01:28:30.848845",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "33",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/login",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Cookie": "session=eyJfZnJlc2giOmZhbHNlfQ.Z7Y33g.u-YCBFYWxM4Yoov6VppL5bmpskQ"
+      },
+      "timestamp": "2025-02-20T01:28:30.848845"
+    },
+    "details": {
+      "reason": "Invalid credentials"
+    }
+  },
+  {
+    "event_type": "registration_attempt",
+    "username": "sushant",
+    "success": false,
+    "timestamp": "2025-02-20T01:28:48.557464",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "84",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/register",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Cookie": "session=eyJfZnJlc2giOmZhbHNlfQ.Z7Y35g.nQBsv5xFldg0Io2rMuNpihc-4LI"
+      },
+      "timestamp": "2025-02-20T01:28:48.557464"
+    },
+    "details": {
+      "email": "sushant@gmail.com"
+    }
+  },
+  {
+    "event_type": "registration_success",
+    "username": "sushant",
+    "success": true,
+    "timestamp": "2025-02-20T01:28:49.243628",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "84",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/register",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Cookie": "session=eyJfZnJlc2giOmZhbHNlfQ.Z7Y35g.nQBsv5xFldg0Io2rMuNpihc-4LI"
+      },
+      "timestamp": "2025-02-20T01:28:49.243628"
+    },
+    "details": {
+      "email": "sushant@gmail.com",
+      "user_id": 2
+    }
+  },
+  {
+    "event_type": "login_attempt",
+    "username": "sushant",
+    "success": false,
+    "timestamp": "2025-02-20T01:28:58.605580",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "33",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/login",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Cookie": "session=eyJfZnJlc2giOmZhbHNlfQ.Z7Y3-Q.0XpVpUmuu-10g5HbZzGd03lvVN0"
+      },
+      "timestamp": "2025-02-20T01:28:58.605580"
+    }
+  },
+  {
+    "event_type": "login_success",
+    "username": "sushant",
+    "success": true,
+    "timestamp": "2025-02-20T01:28:59.333632",
+    "client_info": {
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+      "headers": {
+        "Host": "127.0.0.1:5000",
+        "Connection": "keep-alive",
+        "Content-Length": "33",
+        "Cache-Control": "max-age=0",
+        "Sec-Ch-Ua": "\"Not(A:Brand\";v=\"99\", \"Google Chrome\";v=\"133\", \"Chromium\";v=\"133\"",
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": "\"Windows\"",
+        "Origin": "http://127.0.0.1:5000",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "same-origin",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Referer": "http://127.0.0.1:5000/login",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Cookie": "session=eyJfZnJlc2giOmZhbHNlfQ.Z7Y3-Q.0XpVpUmuu-10g5HbZzGd03lvVN0"
+      },
+      "timestamp": "2025-02-20T01:28:59.333632"
+    },
+    "details": {
+      "user_id": 2,
+      "remember_me": false
+    }
+  }
+]

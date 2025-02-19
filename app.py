@@ -15,7 +15,7 @@ from utils.logger import AuthLogger
 app = Flask(__name__)
 app.config.from_object(Config)
 
-PORT = int(os.getenv("PORT", 10000))  # Default to 10000 if PORT is not set
+PORT = int(os.getenv("PORT", 5000))  # Default to 10000 if PORT is not set
 app.run(host="0.0.0.0", port=PORT)
 
 # Initialize database
